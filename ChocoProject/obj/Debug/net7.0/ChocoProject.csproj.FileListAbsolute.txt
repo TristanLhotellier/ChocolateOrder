@@ -1,0 +1,28 @@
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.exe
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.deps.json
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.runtimeconfig.json
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.pdb
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.AssemblyInfoInputs.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.AssemblyInfo.cs
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.csproj.CoreCompileInputs.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\refint\ChocoProject.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.pdb
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.genruntimeconfig.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\2023-2025\C#\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ref\ChocoProject.dll
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.exe
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.deps.json
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.runtimeconfig.json
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.dll
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\bin\Debug\net7.0\ChocoProject.pdb
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.AssemblyInfo.cs
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.dll
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\refint\ChocoProject.dll
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.pdb
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ChocoProject.genruntimeconfig.cache
+C:\Users\Utilisateur\Desktop\ChocolateOrder\ChocoProject\obj\Debug\net7.0\ref\ChocoProject.dll

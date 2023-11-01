@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQmWFi+dgEETvcBf5sVujBNamNCyCrc3ou8HoczeeWIFTG3feATPqa/rOYEjCSntB+l+ZG3t1J65au505oJg0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-rc.2.23479.6\\system.configuration.configurationmanager.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-rc.2.23479.6\\system.diagnostics.eventlog.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-rc.2.23479.6\\system.security.cryptography.protecteddata.8.0.0-rc.2.23479.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\bin\Debug\net7.0\FileInteraction.deps.json
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\bin\Debug\net7.0\FileInteraction.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\bin\Debug\net7.0\FileInteraction.pdb
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\bin\Debug\net7.0\Models.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\bin\Debug\net7.0\Models.pdb
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.csproj.AssemblyReference.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.AssemblyInfoInputs.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.AssemblyInfo.cs
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.csproj.CoreCompileInputs.cache
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.csproj.CopyComplete
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\refint\FileInteraction.dll
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\FileInteraction.pdb
+C:\Users\Moi\OneDrive - MEWO\Bureau\ProjetC#\FileInteraction\obj\Debug\net7.0\ref\FileInteraction.dll

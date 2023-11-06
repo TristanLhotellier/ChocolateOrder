@@ -6,6 +6,11 @@ public class Administrator
     public string Login { get; set; }
     public string Password { get; set; }
 
+    public Administrator()
+    {
+        
+    }
+
     public Administrator(Guid id, string login, string password)
     {
         Id = id;

@@ -8,7 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ChocoProject\ChocoProject.csproj" />
-      <ProjectReference Include="..\Console\Console.csproj" />
+      <ProjectReference Include="..\ListManager\ListManager.csproj" />
       <ProjectReference Include="..\FileInteraction\FileInteraction.csproj" />
       <ProjectReference Include="..\Logs\Logs.csproj" />
       <ProjectReference Include="..\Models\Models.csproj" />

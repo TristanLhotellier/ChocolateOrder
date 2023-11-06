@@ -76,6 +76,20 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -213,10 +227,16 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Models >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "System.Configuration.ConfigurationManager >= 8.0.0-rc.2.23479.6"
     ]
@@ -227,11 +247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj",
-      "projectName": "Console",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
+      "projectName": "ListManager",
+      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\obj\\",
+      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -245,7 +265,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

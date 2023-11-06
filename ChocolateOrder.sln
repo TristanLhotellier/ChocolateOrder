@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoProject", "ChocoProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoProject.Core", "ChocoProject.Core\ChocoProject.Core.csproj", "{81EBC44A-8B95-4360-9323-4E65C1517D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{A7C509AD-36A7-452B-A186-04879B51F6F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManager", "ListManager\ListManager.csproj", "{A7C509AD-36A7-452B-A186-04879B51F6F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInteraction", "FileInteraction\FileInteraction.csproj", "{FD810D4A-0AD3-4D7B-944F-FF71E85A27F7}"
 EndProject

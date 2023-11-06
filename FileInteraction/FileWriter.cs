@@ -1,6 +1,6 @@
 ﻿namespace FileInteraction;
 
-public class FileWriter
+public class FileWriter : InterfaceFileWriter
 {
     private static FileWriter instance = null;
     private static readonly object lockObject = new object();

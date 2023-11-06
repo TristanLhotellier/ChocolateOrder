@@ -7,6 +7,11 @@ public class PurchasedArticle
     public int Quantity{ get; set; }
     public DateTime PurchasedDate { get; set; }
 
+    public PurchasedArticle()
+    {
+        
+    }
+
     public PurchasedArticle(Guid idBuyer, Guid idChocolate, int quantity, DateTime purchasedDate)
     {
         IdBuyer = idBuyer;

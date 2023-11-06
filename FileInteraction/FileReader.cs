@@ -1,6 +1,6 @@
 ﻿namespace FileInteraction;
 
-public class FileReader
+public class FileReader : InterfaceFileReader
 {
     public FileReader() { }
     public string Read(string filePath)

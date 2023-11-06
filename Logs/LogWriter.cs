@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 namespace Logs;
 
-public class LogWriter
+public class LogWriter : InterfaceLogWriter
 {
     public LogWriter() { }
 

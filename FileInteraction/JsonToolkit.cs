@@ -8,13 +8,13 @@ public class JsonToolkit
         {
             // Lit le contenu du fichier JSON.
             string json = File.ReadAllText(filepath);
-            // Désérialise le contenu JSON en une liste d'objets User.
+            // Désérialise le contenu JSON en une liste d'objets Buyer.
             return JsonConvert.DeserializeObject<List<Buyer>>(json)!;
         }
 
         public string Serialize(List<Buyer> json)
         {
-            // Sérialise une liste d'objets User en une chaîne JSON.
+            // Sérialise une liste d'objets Buyer en une chaîne JSON.
             return JsonConvert.SerializeObject(json);
         }
 
@@ -46,17 +46,17 @@ public class JsonToolkit
             return JsonConvert.SerializeObject(json);
         }
 
-        public List<PurchasedArticle> DeserializeItemsPurchased(string filepath)
+        public List<PurchasedArticle> DeserializeArticlesPurchased(string filepath)
         {
             // Lit le contenu du fichier JSON.
             string json = File.ReadAllText(filepath);
-            // Désérialise le contenu JSON en une liste d'objets ItemsPurchased.
+            // Désérialise le contenu JSON en une liste d'objets ArticlesPurchased.
             return JsonConvert.DeserializeObject<List<PurchasedArticle>>(json)!;
         }
 
-        public string SerializeItemsPurchased(List<PurchasedArticle> json)
+        public string SerializeArticlesPurchased(List<PurchasedArticle> json)
         {
-            // Sérialise une liste d'objets ItemsPurchased en une chaîne JSON.
+            // Sérialise une liste d'objets ArticlesPurchased en une chaîne JSON.
             return JsonConvert.SerializeObject(json);
         }
 }

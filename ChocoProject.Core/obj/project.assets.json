@@ -91,20 +91,6 @@
           "bin/placeholder/ChocoProject.dll": {}
         }
       },
-      "Console/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
-        },
-        "compile": {
-          "bin/placeholder/Console.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Console.dll": {}
-        }
-      },
       "FileInteraction/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -118,6 +104,21 @@
         },
         "runtime": {
           "bin/placeholder/FileInteraction.dll": {}
+        }
+      },
+      "ListManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/ListManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListManager.dll": {}
         }
       },
       "Logs/1.0.0": {
@@ -304,15 +305,15 @@
       "path": "../ChocoProject/ChocoProject.csproj",
       "msbuildProject": "../ChocoProject/ChocoProject.csproj"
     },
-    "Console/1.0.0": {
-      "type": "project",
-      "path": "../Console/Console.csproj",
-      "msbuildProject": "../Console/Console.csproj"
-    },
     "FileInteraction/1.0.0": {
       "type": "project",
       "path": "../FileInteraction/FileInteraction.csproj",
       "msbuildProject": "../FileInteraction/FileInteraction.csproj"
+    },
+    "ListManager/1.0.0": {
+      "type": "project",
+      "path": "../ListManager/ListManager.csproj",
+      "msbuildProject": "../ListManager/ListManager.csproj"
     },
     "Logs/1.0.0": {
       "type": "project",
@@ -333,8 +334,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "ChocoProject >= 1.0.0",
-      "Console >= 1.0.0",
       "FileInteraction >= 1.0.0",
+      "ListManager >= 1.0.0",
       "Logs >= 1.0.0",
       "Models >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
@@ -370,11 +371,11 @@
             "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj": {
               "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj"
             },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj"
-            },
             "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
               "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj"
+            },
+            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj"
             },
             "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj": {
               "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj"

@@ -29,11 +29,11 @@
               "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj": {
                 "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj"
               },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj"
-              },
               "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
                 "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj"
+              },
+              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj"
               },
               "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj": {
                 "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj"
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj",
-        "projectName": "Console",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\Console.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
+        "projectName": "FileInteraction",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Console\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -170,7 +170,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -212,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
-        "projectName": "FileInteraction",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
+        "projectName": "ListManager",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"

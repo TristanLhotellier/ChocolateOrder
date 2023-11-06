@@ -7,7 +7,7 @@ namespace ChocoProject
         static void Main(string[] args)
         {
             CoreManagement coreManagement = new CoreManagement();
-            Console.ReadLine();
+            // Console.ReadLine();
         }
     }
 }

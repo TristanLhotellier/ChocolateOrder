@@ -76,6 +76,82 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ChocoProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FileInteraction": "1.0.0",
+          "ListManager": "1.0.0",
+          "Logs": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/ChocoProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChocoProject.Core.dll": {}
+        }
+      },
+      "FileInteraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/FileInteraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileInteraction.dll": {}
+        }
+      },
+      "ListManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/ListManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListManager.dll": {}
+        }
+      },
+      "Logs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/Logs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logs.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -213,39 +289,71 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ChocoProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../ChocoProject.Core/ChocoProject.Core.csproj",
+      "msbuildProject": "../ChocoProject.Core/ChocoProject.Core.csproj"
+    },
+    "FileInteraction/1.0.0": {
+      "type": "project",
+      "path": "../FileInteraction/FileInteraction.csproj",
+      "msbuildProject": "../FileInteraction/FileInteraction.csproj"
+    },
+    "ListManager/1.0.0": {
+      "type": "project",
+      "path": "../ListManager/ListManager.csproj",
+      "msbuildProject": "../ListManager/ListManager.csproj"
+    },
+    "Logs/1.0.0": {
+      "type": "project",
+      "path": "../Logs/Logs.csproj",
+      "msbuildProject": "../Logs/Logs.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ChocoProject.Core >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "System.Configuration.ConfigurationManager >= 8.0.0-rc.2.23479.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {}
+    "C:\\Users\\Moi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj",
+      "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject\\ChocoProject.csproj",
       "projectName": "ChocoProject",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\obj\\",
+      "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject\\ChocoProject.csproj",
+      "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj": {
+              "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -283,7 +391,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

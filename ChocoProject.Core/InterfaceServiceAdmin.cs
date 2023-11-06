@@ -1,5 +1,4 @@
 ﻿using Models;
-
 namespace ChocoProject.Core;
 
 public interface InterfaceServiceAdmin

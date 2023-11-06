@@ -1,6 +1,6 @@
 ﻿namespace Models;
 
-public class Administrator
+public class Administrator : BaseModel
 {
     public Guid Id { get; set; }
     public string Login { get; set; }

@@ -77,20 +77,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "ChocoProject/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
-        },
-        "compile": {
-          "bin/placeholder/ChocoProject.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ChocoProject.dll": {}
-        }
-      },
       "FileInteraction/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -147,20 +133,6 @@
         },
         "runtime": {
           "bin/placeholder/Models.dll": {}
-        }
-      },
-      "PeopleManagement/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
-        },
-        "compile": {
-          "bin/placeholder/PeopleManagement.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PeopleManagement.dll": {}
         }
       }
     }
@@ -300,11 +272,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ChocoProject/1.0.0": {
-      "type": "project",
-      "path": "../ChocoProject/ChocoProject.csproj",
-      "msbuildProject": "../ChocoProject/ChocoProject.csproj"
-    },
     "FileInteraction/1.0.0": {
       "type": "project",
       "path": "../FileInteraction/FileInteraction.csproj",
@@ -324,67 +291,56 @@
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
-    },
-    "PeopleManagement/1.0.0": {
-      "type": "project",
-      "path": "../PeopleManagement/PeopleManagement.csproj",
-      "msbuildProject": "../PeopleManagement/PeopleManagement.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ChocoProject >= 1.0.0",
       "FileInteraction >= 1.0.0",
       "ListManager >= 1.0.0",
       "Logs >= 1.0.0",
       "Models >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
-      "PeopleManagement >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 8.0.0-rc.2.23479.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {}
+    "C:\\Users\\Moi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj",
       "projectName": "ChocoProject.Core",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\obj\\",
+      "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj",
+      "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj"
+            "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj": {
+              "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj"
             },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj"
+            "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj": {
+              "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj"
             },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj"
+            "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj": {
+              "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj"
             },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj"
-            },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
-            },
-            "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj"
+            "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj"
             }
           }
         }
@@ -424,7 +380,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

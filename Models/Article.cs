@@ -1,15 +1,13 @@
 ﻿namespace Models;
 
-public class Article
+public class Article : BaseModel
 {
     public Guid Id { get; set; }
     public string Reference { get; set; }
-    public float Price { get; set; }
+    public float Price { get; set; } = 5;
 
-    public Article(Guid id, string reference, float price)
+    public Article()
     {
-        Id = id;
-        Reference = reference;
-        Price = price;
+     
     }
 }

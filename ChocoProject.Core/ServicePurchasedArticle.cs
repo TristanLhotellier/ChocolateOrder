@@ -1,13 +1,7 @@
-﻿using ChocoProject.Core;
-using FileInteraction;
-using ListManager;
+﻿using FileInteraction;
 using Models;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ChocoProject.Core;
 
@@ -92,11 +86,12 @@ public class ServicePurchasedArticle
             return FactureBuyer(BuyerConnected);
         }
 
-        public float PriceArticlesPurchasedList(List<PurchasedArticle> ArticlesPurchaseds)
+        public float PriceArticlesPurchasedList(List<PurchasedArticle> ArticlesPurchased)
         {
             float TotalPrice = 0;
-            foreach(PurchasedArticle Articles in ArticlesPurchaseds)
+            foreach(PurchasedArticle Articles in ArticlesPurchased)
             {
+                var t = ArticleService.ArticleList.GetById(Articles.IdChocolate);
                 TotalPrice += Articles.Quantity * ArticleService.ArticleList.GetById(Articles.IdChocolate).Price;
             }
             return TotalPrice;

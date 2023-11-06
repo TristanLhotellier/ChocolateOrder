@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ChocoProject.Core;
+﻿using System.Configuration;
 using FileInteraction;
 using ListManager;
 using Models;
@@ -14,15 +7,14 @@ namespace ChocoProject.Core;
 
 public class ServiceArticle : InterfaceServiceArticle
 {
+    public FileWriter FileWriter = FileWriter.Instance;
+    public JsonToolkit JsonTool = new JsonToolkit();
+    public DisplayConsole DC = new DisplayConsole();
 
         private static ServiceArticle instance = null;
         private static readonly object lockObject = new object();
 
         public string FilePathArticle = ConfigurationManager.AppSettings["pathDB"] + "articles.json";
-
-        public FileWriter FileWriter = FileWriter.Instance;
-        public JsonToolkit JsonTool = new JsonToolkit();
-        public DisplayConsole DC = new DisplayConsole();
 
         public BaseModelList<Article> ArticleList = new BaseModelList<Article>();
         public static ServiceArticle Instance

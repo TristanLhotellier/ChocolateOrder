@@ -1,21 +1,12 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using ChocoProject.Core;
-using Models;
-using ListManager;
-using System.Collections.Generic;
+﻿using Models;
 using Logs;
 using System.Configuration;
 using FileInteraction;
-
 
 namespace ChocoProject.Core;
 
 public class CoreManagement
  {
-        public string FilePathArticlesPurchased = ConfigurationManager.AppSettings["pathDB"] + "articles_achetes.json";
-        public string FilePathAdmin = ConfigurationManager.AppSettings["pathDB"] + "admin.json";
-        public string FilePathBuyer = ConfigurationManager.AppSettings["pathDB"] + "buyer.json";
-        public string FilePathArticle = ConfigurationManager.AppSettings["pathDB"] + "articles.json";
 
         public FileWriter FileWriter = FileWriter.Instance;
         public JsonToolkit JsonTool = new JsonToolkit();
@@ -25,6 +16,11 @@ public class CoreManagement
         public ServiceBuyer ServiceBuyer;
         public ServiceArticle ArticleService = ServiceArticle.Instance;
         public ServicePurchasedArticle ArticlesPurchasedService = ServicePurchasedArticle.Instance;
+        
+        public string FilePathArticlesPurchased = ConfigurationManager.AppSettings["pathDB"] + "articles_achetes.json";
+        public string FilePathAdmin = ConfigurationManager.AppSettings["pathDB"] + "admin.json";
+        public string FilePathBuyer = ConfigurationManager.AppSettings["pathDB"] + "buyer.json";
+        public string FilePathArticle = ConfigurationManager.AppSettings["pathDB"] + "articles.json";
 
         public List<PurchasedArticle> PurchasedArticlesService = new List<PurchasedArticle>();
         public LogWriter Logger = new LogWriter();
@@ -75,7 +71,7 @@ public class CoreManagement
 
             if (!this.FileWriter.FileExiste(FilePathArticlesPurchased))
             {
-                Logger.WriteLog((FileWriter.CreateFile(FilePathArticlesPurchased) ? "Réussi" : "Echec") + " : Création du fichier de sauvegarde de la liste des articles achtés", true);
+                Logger.WriteLog((FileWriter.CreateFile(FilePathArticlesPurchased) ? "Réussi" : "Echec") + " : Création du fichier de sauvegarde des articles achetés", true);
             }
 
             return true;
@@ -93,10 +89,10 @@ public class CoreManagement
 
         public bool saveAll()
         {
-            Logger.WriteLog((ServiceAdmin.SaveAdminList() ? "Réussi" : "Echec")+" : Sauvegarde de la liste des administrateurs",true);
-            Logger.WriteLog((ServiceBuyer.saveBuyerList()? "Réussi" : "Echec")+" : Sauvegarde de la liste des utilisateurs", true);
-            Logger.WriteLog((ArticleService.SaveArticleList() ? "Réussi" : "Echec") + " : Sauvegarde de la liste des articles", true);
-            Logger.WriteLog((ArticlesPurchasedService.SaveArticlesPurchasedList() ? "Réussi" : "Echec") + " : Sauvegarde de la liste des articles achetés", true);
+            Logger.WriteLog((ServiceAdmin.SaveAdminList() ? "Réussi" : "Echec")+" : Sauvegarde administrateurs",true);
+            Logger.WriteLog((ServiceBuyer.saveBuyerList()? "Réussi" : "Echec")+" : Sauvegarde utilisateurs", true);
+            Logger.WriteLog((ArticleService.SaveArticleList() ? "Réussi" : "Echec") + " : Sauvegarde articles", true);
+            Logger.WriteLog((ArticlesPurchasedService.SaveArticlesPurchasedList() ? "Réussi" : "Echec") + " : Sauvegarde articles achetés", true);
 
             return true;
         }

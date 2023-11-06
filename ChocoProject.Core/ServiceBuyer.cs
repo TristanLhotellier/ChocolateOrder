@@ -1,14 +1,8 @@
-﻿using ChocoProject.Core;
-using FileInteraction;
+﻿using FileInteraction;
 using ListManager;
 using Logs;
 using Models;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChocoProject.Core;
 
@@ -72,10 +66,10 @@ public class ServiceBuyer
         public string BuyerChoice()
         {
             Console.WriteLine("Si vous voulez :" +
-                              " \n Ajouter un article dans votre : Tapez le numéro de l'article voulu \n" +
-                "Finaliser votre commande : Tapez F\n" +
-                "Voir le prix de votre panier : Tapez P\n" +
-                "Quitter : Tapez Q \n");
+                              " \nAjouter un article dans votre panier : Tapez le numéro de l'article voulu \n" +
+                "Valider la commande : V\n" +
+                "Prix du panier : P\n" +
+                "Quitter : Q \n");
             string choice = Console.ReadLine()!;
             return choice;
         }
@@ -89,13 +83,13 @@ public class ServiceBuyer
                 int number;
                 if (int.TryParse(choice, out number))
                 {
-                    Logger.WriteLog((AjouterArticlePanier(number) ? "Réussi" : "Echec") + " : Ajout d'un article dans le panier (index : "+number+")",false);
+                    Logger.WriteLog((AddArticleBasket(number) ? "Réussi" : "Echec") + " : Ajout d'un article dans le panier (index : "+number+")",false);
                 }
                 else
                 {
                     switch (choice)
                     {
-                        case "F":
+                        case "V":
                             Console.WriteLine(PurchasedArticleService.validBasket(BuyerConnected));
                             break;
                         case "P":
@@ -111,7 +105,7 @@ public class ServiceBuyer
             return isFinish;
         }
 
-        public bool AjouterArticlePanier(int index)
+        private bool AddArticleBasket(int index)
         {
             return PurchasedArticleService.AddArticleOnBasket(BuyerConnected, index);
         }

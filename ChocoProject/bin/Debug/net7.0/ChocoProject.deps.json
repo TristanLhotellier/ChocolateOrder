@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "ChocoProject/1.0.0": {
         "dependencies": {
+          "ChocoProject.Core": "1.0.0",
           "Newtonsoft.Json": "13.0.3",
           "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
         },
@@ -64,6 +65,57 @@
             "fileVersion": "8.0.23.47906"
           }
         }
+      },
+      "ChocoProject.Core/1.0.0": {
+        "dependencies": {
+          "FileInteraction": "1.0.0",
+          "ListManager": "1.0.0",
+          "Logs": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "runtime": {
+          "ChocoProject.Core.dll": {}
+        }
+      },
+      "FileInteraction/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "runtime": {
+          "FileInteraction.dll": {}
+        }
+      },
+      "ListManager/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "runtime": {
+          "ListManager.dll": {}
+        }
+      },
+      "Logs/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "runtime": {
+          "Logs.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "8.0.0-rc.2.23479.6"
+        },
+        "runtime": {
+          "Models.dll": {}
+        }
       }
     }
   },
@@ -100,6 +152,31 @@
       "sha512": "sha512-PhyL+Qv4bYnWlh/AxIdye89bBxwsyJdGXEFugJgICTQaVbq39p9q1Bal5a+HF14goo2vICFxwEEyb0Gr0jln/w==",
       "path": "system.security.cryptography.protecteddata/8.0.0-rc.2.23479.6",
       "hashPath": "system.security.cryptography.protecteddata.8.0.0-rc.2.23479.6.nupkg.sha512"
+    },
+    "ChocoProject.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileInteraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

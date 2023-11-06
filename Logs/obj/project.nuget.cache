@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+6oARuOpVQa9HZESL6Z8C30AYtz97ltj2jeyXdAKrBFfXCpdV14Z7uDMSbxdWFOqKYIQjso9VdleacOzm9kC0Q==",
+  "dgSpecHash": "wXV/kG+VFTLxNwPuMRfPvuS/JFC5YklkPOUt8Mkf0NBTkKcgyK4IZr8BZLCFUj+mx6j2EbN+RkTjvNgcAKkVTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj",
+  "projectFilePath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-rc.2.23479.6\\system.configuration.configurationmanager.8.0.0-rc.2.23479.6.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-rc.2.23479.6\\system.diagnostics.eventlog.8.0.0-rc.2.23479.6.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-rc.2.23479.6\\system.security.cryptography.protecteddata.8.0.0-rc.2.23479.6.nupkg.sha512"
+    "C:\\Users\\Moi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Moi\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0-rc.2.23479.6\\system.configuration.configurationmanager.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Moi\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0-rc.2.23479.6\\system.diagnostics.eventlog.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\Moi\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0-rc.2.23479.6\\system.security.cryptography.protecteddata.8.0.0-rc.2.23479.6.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,48 +1,44 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj": {}
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj",
         "projectName": "ChocoProject.Core",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\ChocoProject.Core.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject.Core\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\ChocoProject.Core.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ChocoProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj"
               },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj"
               },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj"
               },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj"
-              },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
-              },
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj"
               }
             }
           }
@@ -82,97 +78,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj",
-        "projectName": "ChocoProject",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\ChocoProject.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ChocoProject\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[8.0.0-rc.2.23479.6, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj",
         "projectName": "FileInteraction",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\FileInteraction.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\FileInteraction\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\FileInteraction.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\FileInteraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj"
               }
             }
           }
@@ -212,34 +147,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj",
         "projectName": "ListManager",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\ListManager.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\ListManager\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\ListManager.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\ListManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj"
+              "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj"
               }
             }
           }
@@ -279,26 +216,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj",
         "projectName": "Logs",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\Logs.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Logs\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\Logs.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Logs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -342,26 +281,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -405,70 +346,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj",
-        "projectName": "PeopleManagement",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[8.0.0-rc.2.23479.6, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

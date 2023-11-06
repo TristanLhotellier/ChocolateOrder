@@ -1,5 +1,0 @@
-[01/11/2023 14:31:25] Réussi : Création du fichier de sauvegarde de la liste des administrateurs
-[01/11/2023 14:31:25] Réussi : Création du fichier de sauvegarde de la liste des utilisateurs
-[01/11/2023 14:31:25] Réussi : Création du fichier de sauvegarde de la liste des articles
-[01/11/2023 14:31:25] Réussi : Création du fichier de sauvegarde de la liste des articles achtés
-[01/11/2023 14:31:25] Réussi : Chargement de la liste des administrateurs depuis la BDD

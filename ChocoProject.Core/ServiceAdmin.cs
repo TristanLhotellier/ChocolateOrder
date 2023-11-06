@@ -3,12 +3,11 @@ using Logs;
 using System.Configuration;
 using FileInteraction;
 using ListManager;
-using ChocoProject.Core;
 using Models;
 
 public class ServiceAdmin : InterfaceServiceAdmin
 {
-    public string FilePathAdmin = ConfigurationManager.AppSettings["path"] + "admin.json";
+    public string FilePathAdmin = ConfigurationManager.AppSettings["pathDB"] + "admin.json";
 
         public FileWriter FileWriter = FileWriter.Instance;
         public JsonToolkit JsonTool = new JsonToolkit();

@@ -7,12 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ChocoProject\ChocoProject.csproj" />
       <ProjectReference Include="..\ListManager\ListManager.csproj" />
       <ProjectReference Include="..\FileInteraction\FileInteraction.csproj" />
       <ProjectReference Include="..\Logs\Logs.csproj" />
       <ProjectReference Include="..\Models\Models.csproj" />
-      <ProjectReference Include="..\PeopleManagement\PeopleManagement.csproj" />
     </ItemGroup>
 
     <ItemGroup>

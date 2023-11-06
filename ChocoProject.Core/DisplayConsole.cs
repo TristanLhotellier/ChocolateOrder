@@ -1,12 +1,7 @@
 ﻿using ListManager;
 using Models;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace ChocoProject.Core;
 
@@ -49,13 +44,13 @@ public class DisplayConsole
         public string inputPasswordAdmin()
         {
             bool MotDePasseValide = false; string Password = "";
-            Console.WriteLine("Entrez un mot de passe (il doit contenir au moins 6 caractères et un caractère spécial)");
+            Console.WriteLine("Entrez un mot de passe");
             while (!MotDePasseValide)
             {
                 Password = Console.ReadLine()!;
                 if (!Regex.IsMatch(Password, @"[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]") && Password.Length < 6)
                 {
-                    Console.WriteLine("Mot de passe incorrect (il doit contenir au moins 6 caractères  et un caractère spécial), essayez un autre mot de passe :");
+                    Console.WriteLine("Mot de passe incorrect, essayez un autre mot de passe :");
                 }
                 else
                 {
@@ -67,30 +62,30 @@ public class DisplayConsole
 
         public float InputPriceArticle()
         {
-            string Input = ""; float Resultat;
-            while(float.TryParse(Input, out Resultat))
-            {
-                Console.WriteLine("Veuillez entrer le prix de l'article");
-                Input = Console.ReadLine()!;
-            }
-            return Resultat;
+            // string Input = ""; float Resultat;
+            // while(float.TryParse(Input, out Resultat))
+            // {
+            //     Console.WriteLine("Prix de l'article");
+            //     Input = Console.ReadLine()!;
+            // }
+            // return Resultat;
+            
+            Console.WriteLine("Prix de l'article");
+            
+            return float.Parse(Console.ReadLine()!);
         }
 
         public string InputReferenceArticle()
         {
-            Console.WriteLine("Veuillez entrer la reference de l'article");
+            Console.WriteLine("Référence de l'article");
             return Console.ReadLine()!;
         }
 
         public int inputQuantity()
         {
-            string Input = ""; int Quantity;
-            while (int.TryParse(Input, out Quantity))
-            {
-                Console.WriteLine("Combien en voulez-vous?");
-                Input = Console.ReadLine()!;
-            }
-            return Quantity;
+            Console.WriteLine("Combien en voulez-vous ?");
+            
+            return int.Parse(Console.ReadLine()!);
         }
 
         public string PrintArticleList(BaseModelList<Article> ArticleList)
@@ -108,11 +103,7 @@ public class DisplayConsole
 
         public string MenuAdmin()
         {
-            return "Vous voulez : \n1 : Ajouter un article \n" +
-                "2 : Créer une facture donnant la somme des articles vendus \n" +
-                "3 : Créer une facture donnant la somme des articles vendus par acheteurs \n" +
-                "4 : Créer une facture donnant la somme des articles vendus par date d'achat \n" +
-                "5 : Quitter \n";
+            return "Vous voulez : \n1 : Ajouter un article \n" + "2 : Créer une facture \n" + "3 : Créer une facture par acheteurs \n" + "4 : Créer une facture par date d'achat \n" + "5 : Quitter \n";
         }
 
         
@@ -121,9 +112,9 @@ public class DisplayConsole
         public string FactureBuyerPart(Buyer Buyer)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Nom du client : " + Buyer.LastName + "\n");
-            sb.Append("Prénom du client : " + Buyer.FirstName + "\n");
-            sb.Append("Téléphone du client : " + Buyer.Phone + "\n");
+            sb.Append("Nom client : " + Buyer.LastName + "\n");
+            sb.Append("Prénom client : " + Buyer.FirstName + "\n");
+            sb.Append("Téléphone client : " + Buyer.Phone + "\n");
             return sb.ToString();
         }
 

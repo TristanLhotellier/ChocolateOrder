@@ -1,6 +1,6 @@
 ﻿namespace Models;
 
-public class PurchasedArticle
+public class PurchasedArticle : BaseModel
 {
     public Guid IdBuyer { get; set; }
     public Guid IdChocolate { get; set; }

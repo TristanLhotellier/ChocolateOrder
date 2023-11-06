@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj": {}
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\PeopleManagement\\PeopleManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj": {
+    "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\PeopleManagement\\PeopleManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\PeopleManagement\\PeopleManagement.csproj",
         "projectName": "PeopleManagement",
-        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\PeopleManagement.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\ChocolateOrder\\PeopleManagement\\obj\\",
+        "projectPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\PeopleManagement\\PeopleManagement.csproj",
+        "packagesPath": "C:\\Users\\Moi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moi\\OneDrive - MEWO\\Bureau\\ProjetC#\\PeopleManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Moi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
